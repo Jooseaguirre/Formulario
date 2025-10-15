@@ -78,3 +78,38 @@ button:hover {
   border-radius: 8px;
   background: #fff;
 }
+
+/* Estilos generales para inputs en cualquier dispositivo */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+  appearance: none;              /* quita estilos del navegador */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  color: #333;
+  box-sizing: border-box;
+}
+
+/* Al hacer foco (cuando se escribe) */
+input:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #f9f9f9;
+}
+
+/* Para que los labels se vean igual */
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+  color: #222;
+}
