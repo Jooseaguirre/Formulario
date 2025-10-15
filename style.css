@@ -113,3 +113,8 @@ label {
   margin-bottom: 6px;
   color: #222;
 }
+label, h1, h2, h3 {
+  font-family: Arial, Helvetica, sans-serif; /* fuente más visible en móviles */
+  font-weight: 700; /* fuerza la negrita */
+  color: #111;      /* más contraste */
+}
